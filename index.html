@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBqgZBmBrcWMMORyaTUm4eMGzDfdyssUgc",
+        authDomain: "marine-market-place.firebaseapp.com",
+        databaseURL: "https://marine-market-place.firebaseio.com",
+        projectId: "marine-market-place",
+        storageBucket: "marine-market-place.appspot.com",
+        messagingSenderId: "8200165377"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <title>Marine Market Place - Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta id="theme-color" name="theme-color" content="#EF8766" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/variables.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/general.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/about.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/css/login.css" type="text/css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="menu">
+      <div id="sidenav">
+        <a href="/"> Home </a>
+
+        <a href="/about"> About </a>
+
+        <a href="/login"> Login </a>
+      </div>
+    </div>
+    <h1>Home</h1>
+    <section class="main">
+      <div id="menu">
+        <div id="sidenav">
+          <a href="/"> Home </a>
+
+          <a href="/about"> About </a>
+
+          <a href="/login"> Login </a>
+        </div>
+      </div>
+
+      <div id="container">
+        <div id="contents">
+          <p>
+            Welcome to Marine Market Place, find thousands of listings for cargo
+            and get your cargo sent to the right place for good price at the
+            right time.
+          </p>
+          <div id="CreLi">
+            <div class="button">
+              <a href="/login">
+                <button type="button">Create a Listing</button>
+              </a>
+            </div>
+          </div>
+          <div id="regShip">
+            <a href="/login">
+              <button type="button">Register a Ship</button>
+            </a>
+          </div>
+          <div id="viewCargo">
+            <a href="/Listings">
+              <button type="button">View Availible Listings</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; to me</footer>
+  </body>
+</html>
